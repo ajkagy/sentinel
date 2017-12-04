@@ -36,9 +36,3 @@ Uncomment the #vivo_conf line, at the top of the file, then adjust the path to y
     vivo_conf=C:\path\to\vivo.conf
 
 Now run sentinel-vivo-win64.exe
-
-You should see: “vivod not synced with network! Awaiting full sync before running Sentinel.”
-This is exactly what we want to see at this stage.
-
-If the wallet has been resynched alreaedy, you will see no output which is what you want to see and it means you can skip the next sync step.
-
