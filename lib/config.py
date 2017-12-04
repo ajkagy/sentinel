@@ -22,7 +22,7 @@ def get_vivo_conf():
         vivo_conf = os.path.join(os.environ['APPDATA'], "VivoCore/Vivo.conf")
     else:
         vivo_conf = os.path.join(home, ".vivocore/vivo.conf")
-        vivo_conf = sentinel_cfg.get('vivo_conf', vivo_conf)
+    vivo_conf = sentinel_cfg.get('vivo_conf', vivo_conf)
 
     return vivo_conf
 
