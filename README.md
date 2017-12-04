@@ -22,9 +22,10 @@ Use at your own risk, it has been compiled exactly as the Github repo says
 
 2. Download the sentinel-vivo-win64.exe and place it into a folder.
 
-2. Copy database folder from source into the folder where sentinel-vivo-win64.exe executable resides.
+2. create a folder and name it "database" inside the folder you placed your executable.
 
-3. Copy sentinel.conf to the folder where your sentinel-vivo-win64.exe resides
+3. Copy the sentinel.conf to the folder where your sentinel-vivo-win64.exe resides
+https://github.com/ajkagy/sentinel/blob/master/sentinel.conf
 
 ### 3. Configure & Test Your Configuration
 
