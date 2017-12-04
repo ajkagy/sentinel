@@ -6,8 +6,13 @@ import os
 from vivo_config import VivoConfig
 
 default_sentinel_config = os.path.normpath(
-    os.path.join(os.path.dirname(__file__), '../sentinel.conf')
+    os.path.join(os.path.dirname(__file__), 'sentinel.conf')
 )
+
+if not os.path.isfile(default_sentinel_config):
+    base = os.path.abspath(os.path.dirname(sys.argv[0]))
+    default_sentinel_config = os.path.join(base, 'sentinel.conf')
+
 sentinel_config_file = os.environ.get('SENTINEL_CONFIG', default_sentinel_config)
 sentinel_cfg = VivoConfig.tokenize(sentinel_config_file)
 sentinel_version = "1.1.0"
@@ -22,7 +27,7 @@ def get_vivo_conf():
         vivo_conf = os.path.join(os.environ['APPDATA'], "VivoCore/Vivo.conf")
     else:
         vivo_conf = os.path.join(home, ".vivocore/vivo.conf")
-    vivo_conf = sentinel_cfg.get('vivo_conf', vivo_conf)
+    vivo_conf = sentinel_cfg.get('vivo_conf',vivo_conf)
 
     return vivo_conf
 
