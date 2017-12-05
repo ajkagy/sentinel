@@ -24,6 +24,7 @@ Kaspersky scan results:
 1. Close your wallet.
 
 2. Download the sentinel-vivo-win64.exe and place it into a folder.
+The executable can be found here: https://github.com/ajkagy/sentinel/releases
 
 2. create a folder and name it "database" inside the folder you placed your executable.
 
