@@ -14,7 +14,7 @@ This guide covers installing Sentinel onto an existing MasterNode in Windows
 Use at your own risk, it has been compiled exactly as the Github repo says
 
 Kaspersky scan results:
-![sen​t​i​n​e​l​-​v​i​v​o​-​w​i​n​6​4​.​exe scan results](/seninel-scan.jpg?raw=true "sen​t​i​n​e​l​-​v​i​v​o​-​w​i​n​6​4​.​exe scan results")
+![sen​t​i​n​e​l​-​v​i​v​o​-​w​i​n​6​4​.​exe scan results](/sentinel-scan.jpg?raw=true "sen​t​i​n​e​l​-​v​i​v​o​-​w​i​n​6​4​.​exe scan results")
 
 
 ## Installation
