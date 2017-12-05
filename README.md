@@ -32,10 +32,12 @@ https://github.com/ajkagy/sentinel/blob/master/sentinel.conf
 
 ### 3. Configure & Test Your Configuration
 
-Open sentinel.conf
+1. Open sentinel.conf
 
-Uncomment the #vivo_conf line, at the top of the file, then adjust the path to your Masternode’s vivo.conf. Save the file then close it.
+2. Uncomment the #vivo_conf line, at the top of the file, then adjust the path to your Masternode’s vivo.conf. Save the file then close it.
 
     vivo_conf=C:\path\to\vivo.conf
 
-Now run sentinel-vivo-win64.exe
+3. Now run sentinel-vivo-win64.exe
+
+4. Run your Wallet
