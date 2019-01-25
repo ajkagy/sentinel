@@ -16,7 +16,7 @@ if not os.path.isfile(default_sentinel_config):
 sentinel_config_file = os.environ.get('SENTINEL_CONFIG', default_sentinel_config)
 sentinel_cfg = VivoConfig.tokenize(sentinel_config_file)
 sentinel_version = "1.1.0"
-min_vivod_proto_version_with_sentinel_ping = 70207
+min_vivod_proto_version_with_sentinel_ping = 70210
 
 def get_vivo_conf():
     home = os.environ.get('HOME')
